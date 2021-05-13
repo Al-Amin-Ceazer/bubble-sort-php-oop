@@ -1,7 +1,7 @@
 <?php
-require_once 'Sorter.php';
-require_once 'NumberCollection.php';
-require_once 'StringCollection.php';
+require_once 'Classes/Sorter.php';
+require_once 'Classes/NumberCollection.php';
+require_once 'Classes/StringCollection.php';
 
 $numCollect = new NumberCollection([-12,34,-233,7]);
 
@@ -10,7 +10,7 @@ $sorter->sort();
 echo "<pre>";
 print_r($numCollect->data);
 
-$str = new StringCollection('acbD');
+$str = new StringCollection('XaDcb');
 $sorter = new Sorter($str);
 $sorter->sort();
 echo $str->string;

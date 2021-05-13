@@ -1,5 +1,5 @@
 <?php
-require_once 'Sortable.php';
+require_once 'Interface/Sortable.php';
 
 class Sorter
 {
